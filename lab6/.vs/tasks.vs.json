@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-prelab6",
+      "appliesTo": "prelab6.c",
+      "type": "launch"
+    }
+  ]
+}

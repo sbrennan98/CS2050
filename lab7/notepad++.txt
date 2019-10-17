@@ -1,0 +1,4 @@
+Windows:
+open cmd
+go to folder containing source file (dir==ls)
+"gcc lab7.c -Wall -Werror"
