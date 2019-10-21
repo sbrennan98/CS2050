@@ -127,8 +127,9 @@ void emptyList(List *list){
  */
 void freeList(List **list){
     emptyList(*list);
-    *list=NULL;
     free(*list);
+    *list=NULL;
+
 }
 /*printList(): Takes a List pointer.
  *  -Prints the value of every node in a linked list.
