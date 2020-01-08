@@ -26,7 +26,7 @@ int identifyEvenNum(int arr[], int size)
     //for loop to analyze each value in the array
     for(int i=0; i<size; i++)
     {
-        //if remainder equals zero, the number is positive.
+        //if remainder equals zero, the number is even.
         if((arr[i] % 2)==0)
         {
             num++;
